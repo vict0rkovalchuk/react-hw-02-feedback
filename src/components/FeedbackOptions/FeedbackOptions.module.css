@@ -1,0 +1,25 @@
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #904c6e;
+  background: white;
+  border: 1px solid;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.buttons button:hover {
+  background: #efc7a7;
+}
